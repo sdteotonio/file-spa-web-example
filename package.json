@@ -1,0 +1,23 @@
+{
+  "name": "my-web-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "imports-loader": "^4.0.1",
+    "raw-loader": "^4.0.2",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fspa": "^1.0.0"
+  }
+}
