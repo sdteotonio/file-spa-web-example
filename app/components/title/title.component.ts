@@ -8,6 +8,7 @@ export class UserTitle {
   titleService = service(TitleService);
 
   init() {
+    // Timeout apenas para simular o delay de uma requisição.
     setTimeout(() => {
       this.titles.change(this.titleService.getAll());
       this.name.change("Usuario 2");

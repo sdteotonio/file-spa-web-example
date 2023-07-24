@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "fspa build"
   },
   "devDependencies": {
     "@types/node": "^20.4.1",
